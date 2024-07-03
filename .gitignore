@@ -1,0 +1,42 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+
+# Configuration files
+wp-config.php
+
+# Uploads directory
+wp-content/uploads/
+
+# Plugins and themes
+wp-content/plugins/
+wp-content/themes/
+
+# Cache and logs
+wp-content/cache/
+*.log
+
+# Node modules
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# Build files
+dist/
+build/
+
+# Backup and archive files
+*.sql
+*.tar.gz
+*.zip
+
+.private/
